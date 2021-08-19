@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
   background-color: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
   height: 100vh;
+  position: relative;
 }
 
 main {
@@ -111,4 +113,16 @@ main {
   bottom: -550px;
   right: -200px;
   z-index: -1;
+}
+
+@media only screen and (max-width: 375px) {
+  .card-container {
+    width: 325px;
+  }
+
+  .card-picture {
+    position: absolute;
+    left: 112.5px;
+    top: 25%;
+  }
 }
