@@ -39,7 +39,7 @@ main {
   top: 25%;
 }
 
-img {
+.card-picture img {
   border-radius: 100%;
   border: #fff solid 5px;
   width: 100px;
@@ -98,4 +98,17 @@ img {
   font-size: 12px;
   line-height: 1.2;
   text-align: center;
+}
+
+.background-top {
+  position: absolute;
+  top: -500px;
+  z-index: -1;
+}
+
+.background-bottom {
+  position: absolute;
+  bottom: -550px;
+  right: -200px;
+  z-index: -1;
 }
