@@ -7,4 +7,56 @@
 body {
   background-color: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-top {
+  border-top: 1px solid rgba(0, 0, 0, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 40%;
+  background-image: url('images/bg-pattern-card.svg');
+}
+
+.card-picture {
+  position: absolute;
+  left: 112.5px;
+  top: 28%;
+}
+
+img {
+  border-radius: 100%;
+  border: #fff solid 5px;
+  width: 100px;
+}
+
+.card-bottom {
+  background-color: #fff;
+  height: 40%;
+}
+
+.card-stats {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 2px solid hsl(0, 0%, 59%);
+  display: flex;
+  justify-content: space-around;
+  height: 20%;
 }
