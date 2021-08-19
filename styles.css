@@ -18,7 +18,7 @@ main {
 }
 
 .card-container {
-  height: 400px;
+  height: 375px;
   width: 350px;
   display: flex;
   flex-direction: column;
@@ -29,14 +29,14 @@ main {
   border-top: 1px solid rgba(0, 0, 0, 0);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  height: 40%;
+  height: 37.5%;
   background-image: url('images/bg-pattern-card.svg');
 }
 
 .card-picture {
   position: absolute;
-  left: 112.5px;
-  top: 28%;
+  left: 125px;
+  top: 25%;
 }
 
 img {
@@ -47,7 +47,30 @@ img {
 
 .card-bottom {
   background-color: #fff;
-  height: 40%;
+  height: 37.5%;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.card-bottom h1 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  display: inline;
+  margin-right: 3px;
+}
+
+.card-bottom h2 {
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  display: inline;
+  margin-left: 3px;
+  font-weight: normal;
+}
+
+.card-bottom p {
+  color: hsl(227, 10%, 46%);
+  font-size: 14px;
+  margin: 10px 0;
 }
 
 .card-stats {
@@ -55,8 +78,24 @@ img {
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border-top: 2px solid hsl(0, 0%, 59%);
+  border-top: 1px solid hsl(0, 0%, 86%);
   display: flex;
   justify-content: space-around;
-  height: 20%;
+  align-items: center;
+  height: 25%;
+}
+
+.card-stats h3 {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.card-stats p {
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
 }
