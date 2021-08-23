@@ -22,12 +22,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](https://github.com/olharapo-1701D/frontend-mentor-profile-card-component/tree/main/screenshot/screenshot.png)
+![screenshot](https://github.com/olharapo-1701D/frontend-mentor-profile-card-component/tree/main/screenshot/screenshot.png)
 
 ### Links
 
-- Solution URL: [](https://github.com/olharapo-1701D/frontend-mentor-profile-card-component)
-- Live Site URL: [](https://olharapo-1701d.github.io/frontend-mentor-profile-card-component/)
+- Solution URL: [Solution URL](https://github.com/olharapo-1701D/frontend-mentor-profile-card-component)
+- Live Site URL: [Live Site URL](https://olharapo-1701d.github.io/frontend-mentor-profile-card-component/)
 
 ## My process
 
