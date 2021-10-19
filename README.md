@@ -1,4 +1,4 @@
-#Frontend Mentor - Profile Card Component Challenge (Newbie)
+# Frontend Mentor - Profile Card Component Challenge (Newbie)
 
 (*This README was written using the template provided by Frontend Mentor in their starter project files.*)
 
@@ -22,7 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![screenshot](https://github.com/olharapo-1701D/frontend-mentor-profile-card-component/blob/main/screenshot/Screenshot.png)
+![screenshot](https://github.com/olharapo-1701D/frontendmentor-profile-card-component/blob/main/screenshot/Screenshot.png)
 
 ### Links
 
